@@ -1,0 +1,17 @@
+Select * From factura
+where fecha between '2021-12-01' and '2021-12-30' 
+
+Select * From cliente
+where id_cliente in (9,4,0,6,7,8,12,26) 
+
+
+Select *From cliente 
+order by nombre
+
+Select * From producto
+where stock > '1' order by stock
+
+Select encargado From [Sucursales Akira]
+
+Select * From empleado 
+where  id_empleado in (25,26,27,28,29)
