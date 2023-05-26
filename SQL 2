@@ -15,3 +15,5 @@ Select encargado From [Sucursales Akira]
 
 Select * From empleado 
 where  id_empleado in (25,26,27,28,29)
+
+
